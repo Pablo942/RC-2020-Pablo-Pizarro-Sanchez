@@ -1,5 +1,7 @@
 **TECNICAS DE REPRESENTACION DEL CONOCIMIENTO**
-
+🏫Universidad de Huelva
+📖Representación del conocimiento
+👨‍🎓Pablo Pizarro Sánchez
 **¿Qué es una Representación del Conocimiento?**
 
 * Una representación del conocimiento es fundamentalmente un sustituto, un reemplazo de la cosa misma, utilizado para permitir a una entidad determinar consecuencias pensando en lugar de actuar, es decir, razonando sobre el mundo en lugar de actuando en él.
@@ -18,6 +20,7 @@ Vamos a explicar las técnicas más comunes en la representación del conocimien
 
 *REDES SEMÁNTICAS*
 
+Las redes semánticas son usadas, entre otras cosas, para representar mapas conceptuales y mentales.
 Son grafos dirigidos y etiquetados. Se distinguen en ellos:
         - Nodo: es el concepto de objeto o conjunto de objetos junto con los valores de sus propiedades.
         - Arco: es la relación o asociación entre nodos. Puede ser de varios tipos:     
@@ -27,4 +30,11 @@ Son grafos dirigidos y etiquetados. Se distinguen en ellos:
 Entre las propiedades de las redes semánticas están que tienen una estructura jerárquica, presentan transitividad y no son monótonas.
 
 Ejemplo de red semántica:
+
 ![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura1.PNG)
+
+Objetivo de la red semántica: 
+Su objetivo es desarrollar una estructura para generar datos que se puedan interpretar desde un ordenador. De esta forma pueden ser compartidos y representados por personas y además por herramientas automatizadas.
+
+Las ventajas de las redes semánticas es la gran potencia que ofrecen,ya que son una forma natural de representació, transmiten de manera bastante transparente, y son fácilmente comprensibles. 
+En cuanto a desventajas, tenemos que contamos con poca flexibilidad.
