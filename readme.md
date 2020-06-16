@@ -1,7 +1,9 @@
 **TECNICAS DE REPRESENTACION DEL CONOCIMIENTO**
+
 🏫Universidad de Huelva
 📖Representación del conocimiento
 👨‍🎓Pablo Pizarro Sánchez
+
 **¿Qué es una Representación del Conocimiento?**
 
 * Una representación del conocimiento es fundamentalmente un sustituto, un reemplazo de la cosa misma, utilizado para permitir a una entidad determinar consecuencias pensando en lugar de actuar, es decir, razonando sobre el mundo en lugar de actuando en él.
