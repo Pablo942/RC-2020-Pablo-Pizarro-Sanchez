@@ -64,3 +64,5 @@ Se distinguen en la lógica varios tipos de herencias:
         2. Herencia con excepciones
         3. Herencia múltiple
         4. Herencia y cambios
+        
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura2.PNG)
