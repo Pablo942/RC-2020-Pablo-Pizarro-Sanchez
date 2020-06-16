@@ -28,9 +28,18 @@ Para representar el estado del entorno, utilizamos un término estado de la form
     Ls: lista de juguetes que se encuentran actualmente en el  lado izquierdo
     Rs: lista de juguetes que están actualmente en el  lado derecho
     
+Inicialmente, todos los juguetes estarán en el  lado izquierdo y necesitarán cruzar el puente para llegar al  lado derecho . ç
+Tenemos dos estados importantes:
+
+    Estado inicial: (0, [buzz, woody, rex, hamm], []) todos están en el lado izquierdo y nadie en el derecho.
+    Estado final: (_, [], _) todos los juguetes están en el lado derecho, y por tanto, ninguno en el lado izquierdo.  
     
-    
-    
+El objetivo del problema es obtener una secuencia de movimientos que nos lleven desde estado inicial al estado final.
+
+Para eso tenemos dos tipos de movimientos:
+
+    left_to_right(Toy1, Toy2), que significa que Toy1 y Toy2 se mueven de izquierda a derecha
+    right_to_left(Toy), que significa que Toy se mueve de derecha a izquierda
     
     
     
