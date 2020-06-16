@@ -58,39 +58,33 @@ Contamos con poca flexibilidad.
 
 **LÓGICA**
 
-Esta técnica representa el conocimiento presentando unas premisas o condiciones y las conclusiones o acciones que de ellas se derivan. 
+La lógica consiste en un lenguaje de representación basado en condiciones y reglas. Tiene una sintaxis y una semántica bien definidas, y usa reglas de inferencia.
+   
+        Los Lunes y Miércoles voy a la casa de Juan para cenar
+        Lógica: ∀SX.((es_Lunes(X) V ES_Miercoles(X)) ->
+                Cenar(Yo, CasaDe(Juan),X))
+                
+En cuanto a la sintaxis y la semántica, tenemos ciertas características:
 
-Su representación suele ser usando IF-THEN. 
-Las premisas se colocan a continuación del IF en forma normalmente de tripletas Objeto-Atributo-Valor y utilizando operadores booleanos, mientras que las conclusiones definirán nuevos hechos o realizarán acciones. 
-
-Por ejemplo, podríamos tener la siguiente regla para representar que si hay que ir a trabajar y está lloviendo hay que coger el paraguas: 
-
-        IF “es hora de ir a trabajar” AND “está lloviendo” THEN “tengo que coger el paraguas”.
+* Sintaxis:
         
-Se distinguen en la lógica varios tipos de herencias:
-
-        1. Herencia simple
-        2. Herencia con excepciones
-        3. Herencia múltiple
-        4. Herencia y cambios
+        - Reglas para construir oraciones lógicas
+        - Simbología que se puede usar
+        - Cómo podremos combinar los símbolos
         
-Herencia simple con excepciones:
+* Semántica
         
-![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura2.PNG)
-
+        - Como interpretamos en la Lógica las oraciones
+        - Asignar un significado a cada oración
+        
 * VENTAJAS
-
-        - Es explícita y condensada
-        - Reduce el tiempo de búsqueda
-        - Ayuda a evitar repeticiones y compartir conocimiento
+        
+        - Los lenguajes de programación están basados en la lógica
+        - La lógica ayuda al razonamiento.
         
 * DESVENTAJAS
-
-        - No se pueden representar negaciones, disyunciones o cuantificación
-        - No se pueden incluir conocimientos procedimentales
-        - No hay interpretación estándar
-        - Posibilidad de inconsistencia
-        - Explosión combinatoria
+        
+        - En ocasiones, poco eficiente.
         
 **FRAMES O MARCOS**
 
@@ -123,4 +117,42 @@ Ejemplo de marco:
 
         - Muy generalizados
         
+        
+**REGLAS**
 
+Esta técnica representa el conocimiento presentando unas premisas o condiciones y las conclusiones o acciones que de ellas se derivan. 
+
+Su representación suele ser usando IF-THEN. 
+Las premisas se colocan a continuación del IF en forma normalmente de tripletas Objeto-Atributo-Valor y utilizando operadores booleanos, mientras que las conclusiones definirán nuevos hechos o realizarán acciones. 
+
+Por ejemplo, podríamos tener la siguiente regla para representar que si hay que ir a trabajar y está lloviendo hay que coger el paraguas: 
+
+        IF “es hora de ir a trabajar” AND “está lloviendo” THEN “tengo que coger el paraguas”.
+
+
+
+//////////////////////
+Se distinguen en la lógica varios tipos de herencias:
+
+        1. Herencia simple
+        2. Herencia con excepciones
+        3. Herencia múltiple
+        4. Herencia y cambios
+        
+Herencia simple con excepciones:
+        
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura2.PNG)
+
+* VENTAJAS
+
+        - Es explícita y condensada
+        - Reduce el tiempo de búsqueda
+        - Ayuda a evitar repeticiones y compartir conocimiento
+        
+* DESVENTAJAS
+
+        - No se pueden representar negaciones, disyunciones o cuantificación
+        - No se pueden incluir conocimientos procedimentales
+        - No hay interpretación estándar
+        - Posibilidad de inconsistencia
+        - Explosión combinatoria
