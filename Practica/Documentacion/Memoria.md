@@ -41,26 +41,10 @@ Para eso tenemos dos tipos de movimientos:
     left_to_right(Toy1, Toy2), que significa que Toy1 y Toy2 se mueven de izquierda a derecha
     right_to_left(Toy), que significa que Toy se mueve de derecha a izquierda
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 **PREDICADOS QUE SE UTILIZAN**
 
 * select(+Toy1, +Ls0, -Ls1)
+
 Es cierto si Ls1 unifica con una lista que contiene los elementos de Ls0 sin Toy1.
 
 Esta implementación ya existe en Prolog, pero puesto que no se ha usado en clase, se ha visto la necesidad de explicarla, ya que es una de las que se usan en nuestro problema.
@@ -77,4 +61,6 @@ Ejemplo2:
     R = [2, 3, 1] ;
     R = [1, 2, 3].
 
-* 
+* moves_(state(+T0, +Ls0, -Rs0)
+
+Es cierto si Rs0 unifica con una lista que contiene los que se encuentran a la derecha del puente.
