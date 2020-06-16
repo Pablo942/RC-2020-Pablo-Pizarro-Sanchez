@@ -57,3 +57,10 @@ Las premisas se colocan a continuación del IF en forma normalmente de tripletas
 Por ejemplo, podríamos tener la siguiente regla para representar que si hay que ir a trabajar y está lloviendo hay que coger el paraguas: 
 
         IF “es hora de ir a trabajar” AND “está lloviendo” THEN “tengo que coger el paraguas”.
+        
+Se distinguen en la lógica varios tipos de herencias:
+
+        1. Herencia simple
+        2. Herencia con excepciones
+        3. Herencia múltiple
+        4. Herencia y cambios
