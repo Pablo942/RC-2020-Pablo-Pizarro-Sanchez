@@ -21,7 +21,7 @@
 
 Vamos a explicar las técnicas más comunes en la representación del conocimiento aplicando inteligencia artificial.
 
-*REDES SEMÁNTICAS*
+**REDES SEMÁNTICAS**
 
 Las redes semánticas son usadas, entre otras cosas, para representar mapas conceptuales y mentales.
 Son grafos dirigidos y etiquetados. Se distinguen en ellos:
@@ -46,3 +46,14 @@ Su objetivo es desarrollar una estructura para generar datos que se puedan inter
 
 Las ventajas de las redes semánticas es la gran potencia que ofrecen,ya que son una forma natural de representació, transmiten de manera bastante transparente, y son fácilmente comprensibles. 
 En cuanto a desventajas, tenemos que contamos con poca flexibilidad.
+
+**LÓGICA**
+
+Esta técnica representa el conocimiento presentando unas premisas o condiciones y las conclusiones o acciones que de ellas se derivan. 
+
+Su representación suele ser usando IF-THEN. 
+Las premisas se colocan a continuación del IF en forma normalmente de tripletas Objeto-Atributo-Valor y utilizando operadores booleanos, mientras que las conclusiones definirán nuevos hechos o realizarán acciones. 
+
+Por ejemplo, podríamos tener la siguiente regla para representar que si hay que ir a trabajar y está lloviendo hay que coger el paraguas: 
+
+        IF “es hora de ir a trabajar” AND “está lloviendo” THEN “tengo que coger el paraguas”.
