@@ -44,8 +44,17 @@ Ejemplo de red semántica:
 Objetivo de la red semántica: 
 Su objetivo es desarrollar una estructura para generar datos que se puedan interpretar desde un ordenador. De esta forma pueden ser compartidos y representados por personas y además por herramientas automatizadas.
 
-Las ventajas de las redes semánticas es la gran potencia que ofrecen,ya que son una forma natural de representació, transmiten de manera bastante transparente, y son fácilmente comprensibles. 
-En cuanto a desventajas, tenemos que contamos con poca flexibilidad.
+* VENTAJAS 
+
+Ofrecen una gran potencia, ya que: 
+
+        - Son una forma natural de representació
+        - Transmiten de manera bastante transparente
+        - Son fácilmente comprensibles. 
+        
+* DESVENTAJAS 
+
+Contamos con poca flexibilidad.
 
 **LÓGICA**
 
@@ -65,4 +74,22 @@ Se distinguen en la lógica varios tipos de herencias:
         3. Herencia múltiple
         4. Herencia y cambios
         
+Herencia simple con excepciones:
+        
 ![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura2.PNG)
+
+* VENTAJAS
+
+        - Es explícita y condensada
+        - Reduce el tiempo de búsqueda
+        - Ayuda a evitar repeticiones y compartir conocimiento
+        
+* DESVENTAJAS
+
+        - No se pueden representar negaciones, disyunciones o cuantificación
+        - No se pueden incluir conocimientos procedimentales
+        - No hay interpretación estándar
+        - Posibilidad de inconsistencia
+        - Explosión combinatoria
+        
+**FRAMES O MARCOS**
