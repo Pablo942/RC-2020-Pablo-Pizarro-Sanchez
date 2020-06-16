@@ -129,30 +129,49 @@ Por ejemplo, podríamos tener la siguiente regla para representar que si hay que
 
         IF “es hora de ir a trabajar” AND “está lloviendo” THEN “tengo que coger el paraguas”.
 
-
-
-//////////////////////
-Se distinguen en la lógica varios tipos de herencias:
-
-        1. Herencia simple
-        2. Herencia con excepciones
-        3. Herencia múltiple
-        4. Herencia y cambios
+* VENTAJAS DE LAS REGLAS DE PRODUCCION
         
-Herencia simple con excepciones:
+        Permiten representar el conocimiento en forma adecuada para los ordenadores
+        Modularizan pedazos de conocimiento
+        Permiten el desarrollo incremental
+        Las decisiones son entendibles y explicables
+        Abren nuevas posibilidades computacionales(paralelismo)
+        Permiten interacciones no planeadas y utiles
+
+* DESVENTAJAS DE LAS REGLAS DE PRODUCCION
+
+        No hay fundamento para decidir que problemas tiene solución  
+        Escalamiento sin perder entendimiento / eficiencia
+        Permiten interacciones no planeadas y no deseadas
+        No saben cuando romper sus propias reglas
+        No tienen acceso al razonamiento que hay detrás de las reglas
+        Inadecuadas para describir conocimiento declarativo
         
-![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura2.PNG)
+**OTRAS TECNICAS**
 
-* VENTAJAS
+* Tripletas Objeto-Atributo-Valor: * 
 
-        - Es explícita y condensada
-        - Reduce el tiempo de búsqueda
-        - Ayuda a evitar repeticiones y compartir conocimiento
-        
-* DESVENTAJAS
+Se utilizan para representar hechos acerca de objetos y sus atributos, especificando el valor de un atributo para un determinado objeto. 
 
-        - No se pueden representar negaciones, disyunciones o cuantificación
-        - No se pueden incluir conocimientos procedimentales
-        - No hay interpretación estándar
-        - Posibilidad de inconsistencia
-        - Explosión combinatoria
+Por ejemplo, para representar que el coche es rojo, se tendría una tripleta Coche-Color-Rojo. 
+
+Típicamente estas tripletas se representan en forma de grafos, utilizando una elipse para el objeto, un cuadrado para el valor, y una flecha o arco dirigido entre ambos elementos representando el atributo.
+
+* Lógica difusa *
+
+Representa conocimiento impreciso o ambiguo. 
+
+Ejemplo, la expresión “Juan es viejo”, en comparación con “Juan es joven” o “Juan es de mediana edad”, puede no ser sencilla de representar con otras técnicas, ya que la edad es algo gradual, no se pasa de ser joven un día a ser de mediana edad al siguiente. 
+
+Esta ténica lo que permite es definir funciones de membresía que asignan un valor entre 0 y 1 a cada valor. Así por ejemplo, la función de membresía de edad, asignaría un 1 a joven si la persona tiene 10 años, pero este valor iría decreciendo conforme aumentase la edad hasta llegar a 0, pero teniendo en cuenta que antes de eso se habría ido incrementando el valor de membresía de “mediana edad” e incluso de “viejo”, pudiendo haber edades como los 45, en los que se podría decir que con una persona es joven con un 0.2, vieja con un 0.2 y de mediana edad con un 0.6.
+
+
+**BIBLIOGRAFÍA**
+
+Para la elaboración de este documento se han utilizado los documentos de las siguientes fuentes:
+
+* https://www.cs.us.es/cursos/ia2-2003/temas/tema-03.pdf
+* https://ccc.inaoep.mx/~emorales/Cursos/InteligenciaArtificial/Acetatos/logregrel.pdf
+* https://www.dsi.unive.it/~atorsell/AI/mod1-07-knowledge.pdf
+* https://www.ecured.cu/T%C3%A9cnicas_de_Representaci%C3%B3n_de_Conocimiento#T.C3.A9cnicas
+* http://www.cs.us.es/~fsancho/?e=172
