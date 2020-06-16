@@ -93,3 +93,34 @@ Herencia simple con excepciones:
         - Explosión combinatoria
         
 **FRAMES O MARCOS**
+
+Es una técnica de representación muy similar a la utilizada en la programación orientada a objetos. 
+
+* Consta de class frames, similares a las clases, que representan conjuntos de objetos con características similares. Características :
+        
+        - Conceptos o situaciones genéricas
+        - Se describen por un conjunto de propiedades
+
+* A partir de ellas se crean las instance frames que representan elementos concretos de esa clase. Por ejemplo, podríamos tener el marco de clase “Persona” y la instancia “Juan”. Características :
+        
+        - Objetos concretos o individuos
+        - Relacionados con un marco clase
+        - Heredan propiedades
+
+* Existe también la posibilidad, a diferencia de en las redes semánticas, de definir lo que se llaman facets sobre estos slots, de forma que se les aporte comportamiento procedural. Por ejemplo, sobre un slot edad podríamos añadir el facet “if-changed”, para comprobar el valor introducido.
+
+Ejemplo de marco:
+
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura3.PNG)
+
+* VENTAJAS
+
+        - Se accede a los datos facilmente
+        - Es intuitivo
+        - Ayuda a organización de atributos
+        
+* DESVENTAJAS
+
+        - Muy generalizados
+        
+
