@@ -22,3 +22,18 @@ Como solo puede haber dos juguetes en el puente al mismo tiempo, no pueden cruza
 
 **PREDICADOS QUE SE UTILIZAN**
 
+* select(+Toy1, +Ls0, -Ls1)
+Es cierto si Ls1 unifica con una lista que contiene los elementos de Ls0 sin Toy1.
+Esta implementación ya existe en Prolog, pero puesto que no se ha usado en clase, se ha visto la necesidad de explicarla, ya que es una de las que se usan en nuestro problema.
+
+Ejemplo1:
+
+    select(1,[1,2,3],R).
+    R = [2, 3] ;
+    false.
+    
+Ejemplo2:
+
+     select(1,[1,2,3,1],R).
+    R = [2, 3, 1] ;
+    R = [1, 2, 3].
