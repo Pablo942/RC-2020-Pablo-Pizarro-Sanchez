@@ -24,8 +24,9 @@ Vamos a explicar las técnicas más comunes en la representación del conocimien
 
 Las redes semánticas son usadas, entre otras cosas, para representar mapas conceptuales y mentales.
 Son grafos dirigidos y etiquetados. Se distinguen en ellos:
-        * Nodo: es el concepto de objeto o conjunto de objetos junto con los valores de sus propiedades.
-        * Arco: es la relación o asociación entre nodos. Puede ser de varios tipos:     
+
+* Nodo: es el concepto de objeto o conjunto de objetos junto con los valores de sus propiedades.
+* Arco: es la relación o asociación entre nodos. Puede ser de varios tipos:     
                 1. parte-de : una clase de objetos es una subclase de otra.
                 2. es-un: un objeto pertenece a una clase de objetos.
                 3. relación: entre los conceptos asociados
