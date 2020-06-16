@@ -39,7 +39,7 @@ Entre las propiedades de las redes semánticas están que tienen una estructura 
 
 Ejemplo de red semántica:
 
-![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura1.PNG)
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Teoria/Captura1.PNG)
 
 Objetivo de la red semántica: 
 Su objetivo es desarrollar una estructura para generar datos que se puedan interpretar desde un ordenador. De esta forma pueden ser compartidos y representados por personas y además por herramientas automatizadas.
@@ -105,7 +105,7 @@ Es una técnica de representación muy similar a la utilizada en la programació
 
 Ejemplo de marco:
 
-![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura3.PNG)
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Teoria/Captura3.PNG)
 
 * VENTAJAS
 
