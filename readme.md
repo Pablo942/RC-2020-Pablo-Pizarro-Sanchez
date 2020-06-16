@@ -27,4 +27,4 @@ Son grafos dirigidos y etiquetados. Se distinguen en ellos:
 Entre las propiedades de las redes semánticas están que tienen una estructura jerárquica, presentan transitividad y no son monótonas.
 
 Ejemplo de red semántica:
-![alt text](https://raw.githubusercontent.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/Captura1.png)
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Captura1.PNG)
