@@ -20,10 +20,40 @@ Buzz, Woody, Rex y Hamm tienen que escapar de Zurg. Simplemente tienen que cruza
 Como solo puede haber dos juguetes en el puente al mismo tiempo, no pueden cruzar el puente de una vez. Como necesitan la linterna para cruzar el puente, cada vez que dos han cruzado el puente, alguien tiene que regresar y llevar la linterna a los juguetes del otro lado que aún tienen que cruzar el puente. El problema ahora es: ¿en qué orden pueden los cuatro juguetes cruzar el puente a tiempo (es decir, en 60 minutos) para ser salvados de Zurg?
 
 
+**SOLUCION EN PROLOG**
+
+Para representar el estado del entorno, utilizamos un término estado de la forma (T, Ls, Rs) , donde:
+    
+    T: número entero que denota el tiempo empleado hasta ahora.
+    Ls: lista de juguetes que se encuentran actualmente en el  lado izquierdo
+    Rs: lista de juguetes que están actualmente en el  lado derecho
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
 **PREDICADOS QUE SE UTILIZAN**
 
 * select(+Toy1, +Ls0, -Ls1)
 Es cierto si Ls1 unifica con una lista que contiene los elementos de Ls0 sin Toy1.
+
 Esta implementación ya existe en Prolog, pero puesto que no se ha usado en clase, se ha visto la necesidad de explicarla, ya que es una de las que se usan en nuestro problema.
 
 Ejemplo1:
@@ -37,3 +67,5 @@ Ejemplo2:
      select(1,[1,2,3,1],R).
     R = [2, 3, 1] ;
     R = [1, 2, 3].
+
+* 
