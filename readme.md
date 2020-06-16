@@ -13,3 +13,18 @@
         3. el conjunto de inferencias que recomienda.
 * Es un medio para la computación pragmáticamente eficiente, es decir, el entorno computacional en el que se realiza el pensamiento. Una contribución a esta eficiencia pragmática es la que aporta la orientación que proporciona una representación para organizar la información a fin de facilitar la realización de las inferencias recomendadas.
 * Es un medio de expresión humana, es decir, una lengua en la que decimos cosas sobre el mundo.
+
+Vamos a explicar las técnicas más comunes en la representación del conocimiento aplicando inteligencia artificial.
+
+*REDES SEMÁNTICAS*
+
+Son grafos dirigidos y etiquetados. Se distinguen en ellos:
+        - Nodo: es el concepto de objeto o conjunto de objetos junto con los valores de sus propiedades.
+        - Arco: es la relación o asociación entre nodos. Puede ser de varios tipos:     
+                1. parte-de : una clase de objetos es una subclase de otra.
+                2. es-un: un objeto pertenece a una clase de objetos.
+                3. relación: entre los conceptos asociados
+Entre las propiedades de las redes semánticas están que tienen una estructura jerárquica, presentan transitividad y no son monótonas.
+
+Ejemplo de red semántica:
+![alt text](https://raw.githubusercontent.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/Captura1.png)
