@@ -149,7 +149,7 @@ Por ejemplo, podríamos tener la siguiente regla para representar que si hay que
         
 **OTRAS TECNICAS**
 
-* Tripletas Objeto-Atributo-Valor: * 
+* Tripletas Objeto-Atributo-Valor: 
 
 Se utilizan para representar hechos acerca de objetos y sus atributos, especificando el valor de un atributo para un determinado objeto. 
 
@@ -157,7 +157,7 @@ Por ejemplo, para representar que el coche es rojo, se tendría una tripleta Coc
 
 Típicamente estas tripletas se representan en forma de grafos, utilizando una elipse para el objeto, un cuadrado para el valor, y una flecha o arco dirigido entre ambos elementos representando el atributo.
 
-* Lógica difusa *
+* Lógica difusa 
 
 Representa conocimiento impreciso o ambiguo. 
 
