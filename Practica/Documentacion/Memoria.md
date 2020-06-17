@@ -78,3 +78,7 @@ Este predicado utiliza lo siguiente:
     
     select, ya mencionado anteriormente, que se encarga de seleccionar los elementos oportunos en cada momento.
     moves_, que se encarga de ver si queda alguno a la izquierda para que otro pueda volver a por él con la linterna (right to left).
+
+Asímismo, cuando utilizamos moves(-Ms), este predicado nos dará la lista resultante de movimientos con los cuales se resuelve el problema.
+
+**PRUEBAS DE EJECUCIÓN**
