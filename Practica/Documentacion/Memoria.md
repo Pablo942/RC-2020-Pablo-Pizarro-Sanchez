@@ -83,4 +83,4 @@ Asímismo, cuando utilizamos moves(-Ms), este predicado nos dará la lista resul
 
 **PRUEBAS DE EJECUCIÓN**
 
-![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/tree/master/Practica/Documentacion/Imagenes/PruebaEjecucion.PNG)
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Practica/Documentacion/Imagenes/PruebaEjecucion.PNG)
