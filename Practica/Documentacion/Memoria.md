@@ -82,3 +82,5 @@ Este predicado utiliza lo siguiente:
 Asímismo, cuando utilizamos moves(-Ms), este predicado nos dará la lista resultante de movimientos con los cuales se resuelve el problema.
 
 **PRUEBAS DE EJECUCIÓN**
+
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/tree/master/Practica/Documentacion/Imagenes/PruebaEjecucion.PNG)
