@@ -63,4 +63,18 @@ Ejemplo2:
 
 * moves_(state(+T0, +Ls0, -Rs0)
 
-Es cierto si Rs0 unifica con una lista que contiene los que se encuentran a la derecha del puente.
+Es cierto si Rs0 unifica con una lista que contiene todos los personajes a la derecha del puente. De este modo, Ls0 quedaría vacía.
+
+Este predicado utiliza lo siguiente:
+    
+    select, ya mencionado anteriormente, que se encarga de seleccionar los elementos oportunos en cada momento.
+    moves, que se encarga de ver si queda alguna combinación a la izquierda para pasar a la derecha (left_to_right.
+    
+* moves(state(+T0, +Ls0, -Rs0)
+
+Es cierto si Rs0 unifica con una lista que contiene todos los personajes a la derecha del puente. De este modo, Ls0 quedaría vacía.
+
+Este predicado utiliza lo siguiente:
+    
+    select, ya mencionado anteriormente, que se encarga de seleccionar los elementos oportunos en cada momento.
+    moves_, que se encarga de ver si queda alguno a la izquierda para que otro pueda volver a por él con la linterna (right to left).
