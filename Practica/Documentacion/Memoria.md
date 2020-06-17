@@ -85,6 +85,10 @@ Asímismo, cuando utilizamos moves(-Ms), este predicado nos dará la lista resul
 
 ![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Practica/Documentacion/Imagenes/PruebaEjecucion.PNG)
 
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Practica/Documentacion/Imagenes/PruebaEjecucion2.PNG)
+
+![alt text](https://github.com/Pablo942/RC-2020-Pablo-Pizarro-Sanchez/blob/master/Practica/Documentacion/Imagenes/PruebaEjecucion3.PNG)
+
 **BIBLIOGRAFÍA**
 
 https://www.metalevel.at/
